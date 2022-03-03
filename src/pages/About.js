@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { useOutletContext } from "react-router-dom";
 
 function About() {
-    const [about, setAbout] = useState(null);
     const URL = useOutletContext();
+    const [about, setAbout] = useState(null);
 
     const getAboutData = async () => {
         const response = await fetch(URL + "about")
@@ -15,9 +15,9 @@ function About() {
 
     const loaded = () => (
         <div>
-            <h2>{about.name}</h2>
-            <h4>{about.email}</h4>
-            <h4>{about.bio}</h4>
+            <h1>{about.name}</h1>
+            <h3>{about.email}</h3>
+            <h3>{about.bio}</h3>
             <img src={about.headshot} alt={about.name} className="headshot" />
         </div>
     )

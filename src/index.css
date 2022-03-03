@@ -42,6 +42,22 @@ a {
   object-fit: cover;
 }
 
+.project-div {
+  margin: 50px auto;
+}
+
+.project-img {
+  max-width: 600px;
+  object-fit: cover;
+}
+
+.project-div button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
 footer {
-  margin-top: 50px;
+  margin-top: 80px;
 }
