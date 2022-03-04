@@ -17,7 +17,7 @@ function About() {
         <div>
             <h1>{about.name}</h1>
             <h3>{about.email}</h3>
-            <h3>{about.bio}</h3>
+            <h3><em>Bio:</em> &nbsp;{about.bio}</h3>
             <img src={about.headshot} alt={about.name} className="headshot" />
         </div>
     )
