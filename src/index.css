@@ -42,21 +42,27 @@ a {
 .headshot {
   width: 200px;
   object-fit: cover;
+  margin: 20px;
 }
 
 .project-div {
+  width: fit-content;
   margin: 60px auto;
+  padding: 10px 50px 20px;
+  background-color: #282828;
+  border: 2px solid #555;
 }
 
 .project-img {
   max-width: 600px;
   object-fit: cover;
+  border: 2px solid #555;
 }
 
 .project-div button {
   font-size: 18px;
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
   border-radius: 5px;
   border: 2px solid #224;
@@ -67,6 +73,14 @@ a {
 .project-div button:hover {
   background-color: #ccf;
   border-color: #449;
+}
+
+.about h3 {
+  margin: 30px;
+}
+
+.home h3 {
+  margin: 40px;
 }
 
 footer {

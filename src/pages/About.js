@@ -14,7 +14,7 @@ function About() {
     useEffect(() => getAboutData(), []);
 
     const loaded = () => (
-        <div>
+        <div className="about">
             <h1>{about.name}</h1>
             <h3>{about.email}</h3>
             <h3><em>Bio:</em> &nbsp;{about.bio}</h3>
